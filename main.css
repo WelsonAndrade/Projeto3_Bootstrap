@@ -1,0 +1,57 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: black;
+}
+
+.navbar {
+    background-color: white;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: black;
+    color: white;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: black;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-barbearia, #tipos-de-corte {
+    background-color: beige;
+}
+
+.text-colored {
+    color: green;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color:green;
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover {
+    color:black;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
